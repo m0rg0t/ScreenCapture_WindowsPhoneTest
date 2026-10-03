@@ -198,8 +198,7 @@ namespace VideoWatermark1
                 if (PhotoCamera.IsCameraTypeSupported(CameraType.FrontFacing))
                 {
                     // Use front-facing camera if available.
-                    //cam = new Microsoft.Devices.PhotoCamera(CameraType.FrontFacing);
-                    cam = new Microsoft.Devices.PhotoCamera(CameraType.Primary);
+                    cam = new Microsoft.Devices.PhotoCamera(CameraType.FrontFacing);
                 }
                 else
                 {
